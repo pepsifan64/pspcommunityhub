@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,500&display=swap');
+
+#ovk {
+    color: #c4dbff;
+}
+#mail {
+    color: whitesmoke;
+}
+#ovk:hover{
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#mail:hover {
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+html {
+    background-image: url('https://i.imgur.com/QHGHmcL.jpeg');
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+}
+
+
+#Title {
+    color: rgb(60, 143, 146);
+    font-size: larger;
+    position: fixed;
+    text-align: center;
+    margin-left: 82vh;
+    margin-top: -5vh;
+
+}
+
+#maintxt {
+    color: whitesmoke;
+    background-color: #080808;
+    width: 75vh;
+    height: 25vh;
+    border: 3px solid whitesmoke;
+    font-size: larger;
+    margin-top: 16vh;
+    margin-left: 65vh;
+    z-index: 0;
+}
+#logo {
+    margin-left: 79vh;
+}
+
+.links {
+    margin-top: 10vh;
+    margin-left: 78vh;
+    z-index: 1;
+}
+#onetxt { 
+    color: rgb(205, 253, 255);
+}
